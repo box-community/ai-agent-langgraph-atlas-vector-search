@@ -10,7 +10,6 @@ from langchain_mongodb.retrievers.full_text_search import (
 )
 from langchain_openai import OpenAIEmbeddings
 
-from langchain_mongodb.index import create_fulltext_search_index
 from pymongo import MongoClient
 
 load_dotenv()

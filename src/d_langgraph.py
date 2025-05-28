@@ -151,7 +151,7 @@ def get_compiled_graph() -> CompiledStateGraph:
 def main() -> None:
     app = get_compiled_graph()
     execute_graph("001", "What are the biggest challenges facing tech companies?", app)
-    execute_graph("001", "What earnings reports feature competition analysis?", app)
+    execute_graph("001", "What earnings reports has a comment from Brett Iversen?", app)
 
 
 if __name__ == "__main__":

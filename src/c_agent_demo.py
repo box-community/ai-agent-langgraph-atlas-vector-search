@@ -8,7 +8,7 @@ from b_agent_tools import vector_search, full_text_search
 
 def get_llm_with_tools():
     # Initialize the LLM
-    llm = ChatOpenAI()
+    llm = ChatOpenAI(model="gpt-4o")
     # Create a chat prompt template for the agent, which includes a system prompt and a placeholder for `messages`
     prompt = ChatPromptTemplate.from_messages(
         [
