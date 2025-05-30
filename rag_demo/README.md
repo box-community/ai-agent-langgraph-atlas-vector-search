@@ -135,12 +135,6 @@ The system identifies challenges like China macro environment, shifting preferen
 - **File Upload Conflicts**: The system handles duplicate files automatically
 - **Embedding Limits**: Be aware of OpenAI API rate limits for large document sets
 
-### Debug Tips
-- Check Box folder permissions
-- Verify MongoDB cluster is accessible
-- Test OpenAI API key independently
-- Monitor token usage and costs
-
 ## Next Steps
 
 To extend this system:

@@ -32,7 +32,7 @@ You'll need accounts and API keys for:
 ### 1. Clone and Setup
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/box-community/ai-agent-langgraph-atlas-vector-search.git
 cd ai-agent-langgraph-atlas-vector-search
 uv sync  # This installs all dependencies
 ```
